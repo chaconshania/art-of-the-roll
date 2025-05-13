@@ -8,9 +8,11 @@ export const Hero = ({ title, description }) => {
         <div className="flex flex-col justify-center items-start px-4">
           <h1 className="mb-4 text-6xl font-semibold md:text-8xl">{title}</h1>
           <p className="text-sm md:text-base">{description}</p>
-          <button>Become a Sponsor!</button>
+          <button className="mt-6 flex items-center gap-2 rounded px-6 py-4 text-base font-medium uppercase text-black md:text-lg bg-[#F18F06]">
+            Become a Sponsor!
+          </button>
         </div>
-        <div className="grid grid-cols-2 px-4">
+        <div className="grid grid-cols-2 px-4 bg-[#f18f06]">
           <image></image>
           <image></image>
           <image></image>
