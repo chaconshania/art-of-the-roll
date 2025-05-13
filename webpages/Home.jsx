@@ -2,10 +2,12 @@ import React from "react";
 import { StickyCards } from "/components/StickyCards";
 import { Hero } from "/components/Hero";
 import Socials from "../components/Socials";
+import Navbar from "/components/Navbar";
 
 function Home() {
   return (
     <div>
+      <Navbar />
       <Socials />
       <Hero
         title="Roll with Us!"
