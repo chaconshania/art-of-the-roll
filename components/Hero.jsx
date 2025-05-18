@@ -1,5 +1,7 @@
 import { div } from "motion/react-client";
 import React from "react";
+import { ScreenFitText } from "./ScreenFitText";
+import SwipeCards from "./SwipeCards";
 
 export const Hero = ({ title, description }) => {
   return (
@@ -9,14 +11,13 @@ export const Hero = ({ title, description }) => {
           <h1 className="mb-4 text-6xl font-semibold md:text-8xl">{title}</h1>
           <p className="text-sm md:text-base">{description}</p>
           <button className="mt-6 flex items-center gap-2 rounded px-6 py-4 text-base font-medium uppercase text-black md:text-lg bg-[#F18F06]">
-            Become a Sponsor!
+            Support Us!
           </button>
         </div>
-        <div className="grid grid-cols-2 px-4 bg-[#f18f06]">
-          <image></image>
-          <image></image>
-          <image></image>
-          <image></image>
+        <div className="flex items-center justify-center">
+          <div className="grid grid-cols-1  ">
+            <SwipeCards />
+          </div>
         </div>
       </div>
     </div>

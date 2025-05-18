@@ -114,7 +114,7 @@ const posts = [
   {
     id: 1,
     imgUrl: "/imgs/blog/1.png",
-    author: "John Anderson",
+    author: "Jethro Asinas",
     title: "We built an AI chess bot with ChatGPT",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, dolor.",
@@ -122,7 +122,7 @@ const posts = [
   {
     id: 2,
     imgUrl: "/imgs/blog/2.png",
-    author: "Kyle Parsons",
+    author: "Daniela Salas",
     title: "How to grow your personal brand as a web designer",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, dolor.",
@@ -130,7 +130,7 @@ const posts = [
   {
     id: 3,
     imgUrl: "/imgs/blog/3.png",
-    author: "Andrea Bates",
+    author: "Vivian Mendoza",
     title: "Calm down, monoliths are totally fine",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, dolor.",
@@ -138,7 +138,7 @@ const posts = [
   {
     id: 4,
     imgUrl: "/imgs/blog/4.png",
-    author: "Jess Drum",
+    author: "Dorian Robinson",
     title: "A quick guide to Framer Motion (for dummies)",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, dolor.",
@@ -146,24 +146,8 @@ const posts = [
   {
     id: 5,
     imgUrl: "/imgs/blog/5.png",
-    author: "Phil White",
+    author: "Shania Chacon",
     title: "You probably don't need kubernetes",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, dolor.",
-  },
-  {
-    id: 6,
-    imgUrl: "/imgs/blog/6.png",
-    author: "Karen Peabody",
-    title: "State of JavaScript in 2024",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, dolor.",
-  },
-  {
-    id: 7,
-    imgUrl: "/imgs/blog/7.png",
-    author: "Dante Gordon",
-    title: "What's new in Python?",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, dolor.",
   },

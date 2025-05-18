@@ -23,9 +23,10 @@ export const StickyCards = () => {
       </div>
       <div className="h-screen bg-black flex gap-8 w-full px-4 justify-center align-center">
         <div className=" w-full px-4  max-w-6xl">
-          <h3 className="mb-4 text-4xl font-semibold md:text-6xl text-white">
+          <h3 className="mb-4 text-4xl font-semibold md:text-6xl text-white w-150">
             Meet the team that made it happen
           </h3>
+          <p className="text-white text-sm md:text-base">Something</p>
           <PostCarousel />
         </div>
       </div>
@@ -44,8 +45,8 @@ const Card = ({ position, card, scrollYProgress }) => {
       style={{
         height: CARD_HEIGHT,
         y: position === CARDS.length ? undefined : y,
-        background: isOddCard ? "black" : "white",
-        color: isOddCard ? "white" : "black",
+        background: isOddCard ? "black" : "#FFF7E7",
+        color: isOddCard ? "#FFF7E7" : "black",
       }}
       className="sticky top-0 flex w-full origin-top flex-col items-center justify-center px-4 "
     >
@@ -69,7 +70,7 @@ const Card = ({ position, card, scrollYProgress }) => {
           </a>
         </div>
         <div className="flex flex-col justify-center items-start">
-          <img src={card.image}></img>
+          <img className="rounded-4xl" src={card.image}></img>
         </div>
       </div>
     </motion.div>
@@ -83,20 +84,20 @@ const CARDS = [
     id: 1,
     title: "Our Vision",
     description:
-      "We’re uniting Stamford’s students, residents, and local organizations to create something memorable. This mosaic will stand as a symbol of our collective spirit, creativity, and determination. By breaking the record, we will celebrate the innovative spirit of Stamford, CT and its community, leave a lasting artistic legacy for future generations to enjoy, and foster a greater sense of community pride and teamwork in Stamford.",
+      "We’re uniting Stamford’s students, residents, and local organizations to create something memorable. By breaking the record, we will celebrate the innovative spirit of Stamford, CT and its community, leave a lasting artistic legacy for future generations to enjoy, and foster a greater sense of community pride and teamwork in Stamford.",
     ctaClasses: "bg-[#F18F06]",
     routeTo: "#",
-    image: "",
+    image: "/Images/Team-picture.jpg",
     buttontxt: "Learn more",
   },
   {
     id: 2,
     title: "What Will Our Project Achieve?",
     description:
-      "The project aims to invigorate the Stamford Campus by encouraging students, faculty, and staff to work together in a collaborative effort. Through friendly competition and creative collaboration with other regional campuses, we seek to develop a compelling design for the final art piece. This initiative also provides Stamford DMD students with a valuable opportunity to strengthen their portfolios, as we plan to thoroughly document the design and creation process. Ultimately, the project will highlight the creative talent within the Stamford Art Association and may even attract new members and artists, enriching the cultural landscape of the city of Stamford.",
+      "The project aims to invigorate the Stamford Campus by encouraging students, faculty, and staff to work together in a collaborative effort. Through friendly competition and creative collaboration with other regional campuses, we seek to develop a compelling design for the final art piece. Ultimately, the project will highlight the creative talent within the Stamford Art Association and may even attract new members and artists, enriching the cultural landscape of the city of Stamford.",
     ctaClasses: "bg-[#F18F06]",
     routeTo: "#",
-    image: "",
+    image: "/Images/Ignite-day.PNG",
     buttontxt: "Learn more",
   },
   {

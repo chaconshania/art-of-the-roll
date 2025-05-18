@@ -9,7 +9,9 @@ import {
 
 const LINKS = [
   { text: "About", href: "#" },
-  { text: "Features", href: "#" },
+  { text: "Mission", href: "#" },
+  { text: "Documentary", href: "#" },
+  { text: "FAQ", href: "#" },
 ];
 
 const Example = () => {
@@ -27,7 +29,11 @@ const FlyoutNav = () => {
   return (
     <nav
       className={`fixed top-0 z-50 w-full px-6 text-black transition-all duration-300 ease-out lg:px-12
-      ${scrolled ? "bg-white py-3 shadow-xl" : "bg-white/0 py-6 shadow-none"}`}
+      ${
+        scrolled
+          ? "bg-[#FFF7E7] py-3 shadow-xl"
+          : "bg-[#FFF7E7]/0 py-6 shadow-none"
+      }`}
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between">
         <Logo />
@@ -46,17 +52,14 @@ const Logo = ({ color = "black" }) => (
     <span className="text-2xl font-bold" style={{ color }}>
       Art of the Roll
     </span>
-    <svg
+    <img
       width="50"
       height="39"
       viewBox="0 0 50 39"
       fill={color}
-      xmlns="http://www.w3.org/2000/svg"
       className="w-10"
-    >
-      <path d="M16.4992 2H37.5808L22.0816 24.9729H1L16.4992 2Z" />
-      <path d="M17.4224 27.102L11.4192 36H33.5008L49 13.0271H32.7024L23.2064 27.102H17.4224Z" />
-    </svg>
+      src="/Images/littleguy.png"
+    ></img>
   </div>
 );
 

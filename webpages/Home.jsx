@@ -4,6 +4,7 @@ import { Hero } from "/components/Hero";
 import Socials from "../components/Socials";
 
 import Example from "../components/Navbar";
+import Footer from "../components/Footer";
 
 function Home() {
   return (
@@ -17,6 +18,7 @@ function Home() {
       <StickyCards />
       {/* Roles and responsibilities*/}
       {/* What's the language */}
+      <Footer />
     </div>
   );
 }
