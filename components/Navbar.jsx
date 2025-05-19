@@ -49,9 +49,6 @@ const FlyoutNav = () => {
 
 const Logo = ({ color = "black" }) => (
   <div className="flex items-center gap-2">
-    <span className="text-2xl font-bold" style={{ color }}>
-      Art of the Roll
-    </span>
     <img
       width="50"
       height="39"
@@ -60,6 +57,9 @@ const Logo = ({ color = "black" }) => (
       className="w-10"
       src="/Images/littleguy.png"
     ></img>
+    <span className="text-2xl font-bold" style={{ color }}>
+      Art of the Roll
+    </span>
   </div>
 );
 

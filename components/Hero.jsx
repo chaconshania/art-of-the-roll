@@ -15,7 +15,7 @@ export const Hero = ({ title, description }) => {
           </button>
         </div>
         <div className="flex items-center justify-center">
-          <div className="grid grid-cols-1  ">
+          <div className="grid md:grid-cols-1">
             <SwipeCards />
           </div>
         </div>
