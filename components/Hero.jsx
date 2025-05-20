@@ -1,7 +1,5 @@
 import { div } from "motion/react-client";
 import React from "react";
-import { ScreenFitText } from "./ScreenFitText";
-import SwipeCards from "./SwipeCards";
 
 export const Hero = ({ title, description }) => {
   return (
@@ -15,9 +13,7 @@ export const Hero = ({ title, description }) => {
           </button>
         </div>
         <div className="flex items-center justify-center">
-          <div className="grid md:grid-cols-1">
-            <SwipeCards />
-          </div>
+          <div className="grid md:grid-cols-1"></div>
         </div>
       </div>
     </div>
