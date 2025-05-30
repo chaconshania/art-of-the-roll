@@ -2,7 +2,6 @@ import React from "react";
 import { StickyCards } from "/components/StickyCards";
 import { Hero } from "/components/Hero";
 import Socials from "../components/Socials";
-
 import Example from "../components/Navbar";
 import Footer from "../components/Footer";
 

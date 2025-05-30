@@ -22,9 +22,9 @@ export const StickyCards = () => {
         ))}
       </div>
       <div className="h-screen bg-black flex gap-8 w-full px-4 justify-center align-center">
-        <div className=" w-full px-4  max-w-6xl">
-          <h3 className="mb-4 text-4xl font-semibold md:text-6xl text-white w-150">
-            Meet the team that made it happen
+        <div className=" w-full px-4  max-w-6xl text-wrap">
+          <h3 className="mb-4 text-4xl font-semibold md:text-6xl text-white ">
+            Meet the team
           </h3>
           <p className="text-white text-sm md:text-base">Something</p>
           <PostCarousel />
