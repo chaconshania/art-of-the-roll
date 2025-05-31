@@ -23,10 +23,10 @@ export const StickyCards = () => {
       </div>
       <div className="h-screen bg-black flex gap-8 w-full px-4 justify-center align-center">
         <div className=" w-full px-4  max-w-6xl text-wrap">
-          <h3 className="mb-4 text-4xl font-semibold md:text-6xl text-white ">
+          <h3 className="mb-4 text-4xl font-semibold md:text-6xl text-[#FFF7E7] ">
             Meet the team <br /> that made it possible
           </h3>
-          <p className="text-white text-sm md:text-base">
+          <p className=" text-sm md:text-base text-[#FFF7E7]">
             Art of the Roll is runned by a collaborative team of UConn artists,
             including current students and Husky Art Pack members Vivian and
             Daniela, alongside Digital Media & Design graduates Jethro, Shania,
