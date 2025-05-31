@@ -24,9 +24,15 @@ export const StickyCards = () => {
       <div className="h-screen bg-black flex gap-8 w-full px-4 justify-center align-center">
         <div className=" w-full px-4  max-w-6xl text-wrap">
           <h3 className="mb-4 text-4xl font-semibold md:text-6xl text-white ">
-            Meet the team
+            Meet the team <br /> that made it possible
           </h3>
-          <p className="text-white text-sm md:text-base">Something</p>
+          <p className="text-white text-sm md:text-base">
+            Art of the Roll is runned by a collaborative team of UConn artists,
+            including current students and Husky Art Pack members Vivian and
+            Daniela, alongside Digital Media & Design graduates Jethro, Shania,
+            and Dorian. Check out their stories and see how they contribute to
+            the team!
+          </p>
           <PostCarousel />
         </div>
       </div>
@@ -70,7 +76,10 @@ const Card = ({ position, card, scrollYProgress }) => {
           </a>
         </div>
         <div className="flex flex-col justify-center items-start">
-          <img className="rounded-4xl" src={card.image}></img>
+          <img
+            className="rounded-4xl w-full md:h-100 h-full object-cover"
+            src={card.image}
+          ></img>
         </div>
       </div>
     </motion.div>
@@ -107,7 +116,7 @@ const CARDS = [
       "Johnny Face Off (of Design with Dice) is an innovative artist who specializes in creating stunning works of art using dice as his primary medium. Johnny Face Off has gained recognition for pushing the boundaries of art. His expertise and unique artistic approach make him the perfect collaborator for Art of the Roll as we aim to break the Guinness World Record for the largest dice mosaic.",
     ctaClasses: "bg-[#F18F06]",
     routeTo: "#",
-    image: "",
+    image: "/Images/Comp 1.gif",
     buttontxt: "Check out his works",
   },
 ];
