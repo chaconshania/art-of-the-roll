@@ -27,11 +27,11 @@ export const StickyCards = () => {
             Meet the team <br /> that made it possible
           </h3>
           <p className=" text-sm md:text-base text-[#FFF7E7]">
-            Art of the Roll is runned by a collaborative team of UConn artists,
-            including current students and Husky Art Pack members Vivian and
-            Daniela, alongside Digital Media & Design graduates Jethro, Shania,
-            and Dorian. Check out their stories and see how they contribute to
-            the team!
+            Art of the Roll is runned by a collaborative team of UConn students
+            & alumni, including current students and Husky Art Pack members
+            Vivian and Daniela, alongside Digital Media & Design graduates
+            Jethro, Shania, and Dorian. Check out their stories and see how they
+            contribute to the team!
           </p>
           <PostCarousel />
         </div>
