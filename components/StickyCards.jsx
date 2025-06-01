@@ -77,7 +77,13 @@ const Card = ({ position, card, scrollYProgress }) => {
         </div>
         <div className="flex flex-col justify-center items-start">
           <img
-            className="rounded-4xl w-full md:h-100 h-full object-cover"
+            className={`rounded-4xl w-full md:h-100 h-full object-cover -translate-x-0.5 -translate-y-0.5 ${
+              card.ctaClasses
+            } ${
+              isOddCard
+                ? "shadow-[8px_8px_0px_white]"
+                : "shadow-[8px_8px_0px_black]"
+            }`}
             src={card.image}
           ></img>
         </div>

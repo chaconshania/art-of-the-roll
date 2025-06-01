@@ -11,20 +11,20 @@ export default function Footer() {
         </div>
 
         <div>
+          <h3 className="text-xl font-medium">Location</h3>
+          <h4>
+            1 University Pl <br />
+            Stamford, CT 06901
+          </h4>
+        </div>
+
+        <div>
           <h3 className="text-xl font-medium">Stay Connected</h3>
           <ul className="space-y-1">
             <li>LinkedIn</li>
             <li>Email</li>
             <li>Instagram</li>
           </ul>
-        </div>
-
-        <div>
-          <h3 className="text-xl font-medium">Location</h3>
-          <h4>
-            1 University Pl <br />
-            Stamford, CT 06901
-          </h4>
         </div>
 
         <div>

@@ -45,7 +45,7 @@ const PostCarousel = () => {
           <div className="flex items-center justify-between">
             <h2 className="mb-4 text-4xl"></h2>
 
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2 mb-4">
               <button
                 className={`rounded-lg border-[1px] border-neutral-400 bg-white p-1.5 text-2xl transition-opacity ${
                   CAN_SHIFT_LEFT ? "" : "opacity-30"
@@ -96,14 +96,14 @@ const Post = ({ imgUrl, author, title, description }) => {
     >
       <img
         src={imgUrl}
-        className="mb-3 h-[200px] w-full rounded-lg object-cover"
+        className="mb-3 h-[300px] w-full rounded-lg object-cover"
         alt={`An image for a fake blog post titled ${title}`}
       />
-      <span className="rounded-md border-[1px] border-neutral-500 px-1.5 py-1 text-xs uppercase text-neutral-500">
+      <span className="rounded-md border-[1px] border-[#FFF7E7] px-1.5 py-1 text-xs uppercase text-[#FFF7E7]">
         {author}
       </span>
-      <p className="mt-1.5 text-lg font-medium">{title}</p>
-      <p className="text-sm text-neutral-500">{description}</p>
+      <p className="mt-1.5 text-lg font-medium text-[#FFF7E7]">{title}</p>
+      <p className="text-sm text-[#FFF7E7]">{description}</p>
     </div>
   );
 };
@@ -113,41 +113,41 @@ export default PostCarousel;
 const posts = [
   {
     id: 1,
-    imgUrl: "/imgs/blog/1.png",
-    author: "Jethro Asinas",
-    title: "We built an AI chess bot with ChatGPT",
+    imgUrl: "/Images/Jethro.jpg",
+    author: "Product Lead, Data Analyst",
+    title: "Jethro Asinas",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, dolor.",
   },
   {
     id: 2,
-    imgUrl: "/imgs/blog/2.png",
-    author: "Daniela Salas",
-    title: "How to grow your personal brand as a web designer",
+    imgUrl: "/Images/Jethro.jpg",
+    author: "Product Lead, Marketing Director",
+    title: "Daniela Salas",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, dolor.",
   },
   {
     id: 3,
-    imgUrl: "/imgs/blog/3.png",
-    author: "Vivian Mendoza",
-    title: "Calm down, monoliths are totally fine",
+    imgUrl: "/Images/Vivi.jpg",
+    author: "Product Lead, Marketing Director",
+    title: "Vivian Mendoza",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, dolor.",
   },
   {
     id: 4,
-    imgUrl: "/imgs/blog/4.png",
-    author: "Dorian Robinson",
-    title: "A quick guide to Framer Motion (for dummies)",
+    imgUrl: "/Images/Jethro.jpg",
+    author: "Director, Producer",
+    title: "Dorian Robinson",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, dolor.",
   },
   {
     id: 5,
-    imgUrl: "/imgs/blog/5.png",
-    author: "Shania Chacon",
-    title: "You probably don't need kubernetes",
+    imgUrl: "/Images/Shania.jpg",
+    author: "Product Designer",
+    title: "Shania Chacon",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, dolor.",
   },
